@@ -14,7 +14,7 @@ A lightweight vLLM implementation built from scratch.
 
 - Remove hard code for block_size per [this PR](https://github.com/GeeeekExplorer/nano-vllm/pull/148/commits/55c64e7fdf403f888a8bc681460c219e2b561ca6)
 - Fix: clean up hash_to_block_id mapping when deallocating blocks per [this PR](https://github.com/GeeeekExplorer/nano-vllm/pull/153)
-- 
+- Fix: bug for tensor parallelism per [this PR](https://github.com/GeeeekExplorer/nano-vllm/pull/145)
 ## Key Features
 
 * 🚀 **Fast offline inference** - Comparable inference speeds to vLLM
